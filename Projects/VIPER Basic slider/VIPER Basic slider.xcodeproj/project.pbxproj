@@ -13,6 +13,8 @@
 		34D5410324B93D3F001806BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34D5410124B93D3F001806BB /* Main.storyboard */; };
 		34D5410524B93D41001806BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34D5410424B93D41001806BB /* Assets.xcassets */; };
 		34D5410824B93D41001806BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34D5410624B93D41001806BB /* LaunchScreen.storyboard */; };
+		34D5411024B94481001806BB /* HomeViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D5410F24B94481001806BB /* HomeViewBuilder.swift */; };
+		34D5411224B94CA5001806BB /* AppColorDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D5411124B94CA5001806BB /* AppColorDao.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		34D5410424B93D41001806BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		34D5410724B93D41001806BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		34D5410924B93D41001806BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34D5410F24B94481001806BB /* HomeViewBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewBuilder.swift; sourceTree = "<group>"; };
+		34D5411124B94CA5001806BB /* AppColorDao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColorDao.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +63,12 @@
 				34D540FB24B93D3F001806BB /* AppDelegate.swift */,
 				34D540FD24B93D3F001806BB /* SceneDelegate.swift */,
 				34D540FF24B93D3F001806BB /* HomeViewController.swift */,
+				34D5410F24B94481001806BB /* HomeViewBuilder.swift */,
 				34D5410124B93D3F001806BB /* Main.storyboard */,
 				34D5410424B93D41001806BB /* Assets.xcassets */,
 				34D5410624B93D41001806BB /* LaunchScreen.storyboard */,
 				34D5410924B93D41001806BB /* Info.plist */,
+				34D5411124B94CA5001806BB /* AppColorDao.swift */,
 			);
 			path = "VIPER Basic slider";
 			sourceTree = "<group>";
@@ -139,8 +145,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				34D5410024B93D3F001806BB /* HomeViewController.swift in Sources */,
+				34D5411224B94CA5001806BB /* AppColorDao.swift in Sources */,
 				34D540FC24B93D3F001806BB /* AppDelegate.swift in Sources */,
 				34D540FE24B93D3F001806BB /* SceneDelegate.swift in Sources */,
+				34D5411024B94481001806BB /* HomeViewBuilder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

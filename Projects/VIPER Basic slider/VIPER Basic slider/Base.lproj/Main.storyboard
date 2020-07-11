@@ -10,7 +10,7 @@
         <!--Home View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="HomeViewController" customModule="VIPER_Basic_slider" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="homeViewController" id="BYZ-38-t0r" customClass="HomeViewController" customModule="VIPER_Basic_slider" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -61,7 +61,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="rgbValue" destination="DFw-KB-9Uk" id="N4t-n7-zen"/>
+                        <outlet property="rgbValueLabel" destination="DFw-KB-9Uk" id="N4t-n7-zen"/>
                         <outlet property="sliderBlue" destination="YUd-94-0tT" id="14e-jN-GNu"/>
                         <outlet property="sliderGreen" destination="DGe-V3-61E" id="xS8-tr-bVU"/>
                         <outlet property="sliderRed" destination="UD4-li-fEf" id="RKd-hD-X8I"/>
