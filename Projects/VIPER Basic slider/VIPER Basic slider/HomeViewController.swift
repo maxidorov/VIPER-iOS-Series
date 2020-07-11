@@ -80,7 +80,7 @@ extension HomeViewController: OnColorValueDelegate {
         let green = CGFloat(round(sliderGreen.value / step) * step)
         let blue = CGFloat(round(sliderBlue.value / step) * step)
         
-        rgbValueLabel.text = "RGB (\(red), \(green), \(blue))"
+        rgbValueLabel.text = "RGB (\(Int(red)), \(Int(green)), \(Int(blue)))"
         
         self.view.backgroundColor = UIColor(
             red: red / 255,
