@@ -1,0 +1,23 @@
+{
+    "groceries": [{
+        "sku-id": "100001A",
+        "title": "Apple",
+        "product_image": "apple",
+        "details": "Nature fresh kashmiri apples",
+        "price": 3.99
+    },
+    {
+        "sku-id": "100002A",
+        "title": "Watermelon",
+        "product_image": "watermelon",
+        "details": "Red ripe watermelons",
+        "price": 2.99
+    },
+    {
+        "sku-id": "100003A",
+        "title": "Red Grapes",
+        "product_image": "grapes",
+        "details": "Seedless red grapes fresh from the grapeyard",
+        "price": 2.99
+    }]
+}

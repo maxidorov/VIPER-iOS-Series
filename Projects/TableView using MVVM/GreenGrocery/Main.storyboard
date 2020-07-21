@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Zx4-oc-Wib">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Home View Controller-->
+        <scene sceneID="hRO-cm-v9k">
+            <objects>
+                <viewController storyboardIdentifier="HomeViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Zx4-oc-Wib" customClass="HomeViewController" customModule="Stepper_Control_MVVM" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5oD-Lh-cBT">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="zSr-Kf-nDb">
+                                <rect key="frame" x="0.0" y="124" width="414" height="738"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            </tableView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pick Fresh Groceries" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZvC-0k-6h5">
+                                <rect key="frame" x="20" y="76" width="164" height="24"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-CondensedBold" family="Helvetica Neue" pointSize="20"/>
+                                <color key="textColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="bwa-bL-YDZ" firstAttribute="trailing" secondItem="zSr-Kf-nDb" secondAttribute="trailing" id="1ce-O9-nhC"/>
+                            <constraint firstItem="ZvC-0k-6h5" firstAttribute="leading" secondItem="bwa-bL-YDZ" secondAttribute="leading" constant="20" id="9Kp-aX-HNi"/>
+                            <constraint firstItem="zSr-Kf-nDb" firstAttribute="leading" secondItem="bwa-bL-YDZ" secondAttribute="leading" id="JxM-cF-M56"/>
+                            <constraint firstItem="ZvC-0k-6h5" firstAttribute="top" secondItem="bwa-bL-YDZ" secondAttribute="top" constant="32" id="R6V-It-jBJ"/>
+                            <constraint firstItem="zSr-Kf-nDb" firstAttribute="top" secondItem="ZvC-0k-6h5" secondAttribute="bottom" constant="24" id="fHB-ht-mAO"/>
+                            <constraint firstItem="bwa-bL-YDZ" firstAttribute="bottom" secondItem="zSr-Kf-nDb" secondAttribute="bottom" id="irT-Ll-AQg"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="bwa-bL-YDZ"/>
+                    </view>
+                    <connections>
+                        <outlet property="tableView" destination="zSr-Kf-nDb" id="LCA-wQ-9dx"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dde-pl-95R" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-348" y="-20"/>
+        </scene>
+    </scenes>
+</document>
